@@ -1,0 +1,39 @@
+/*
+    Name: Jesse Wang
+    CS 132 Spring 2023
+    Date: 6/09/2023
+    This is the style sheet for the main index landing page.
+*/
+.coin, #buy-and-sell {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+article {
+    margin: 0px 30px;
+}
+
+.coin {
+    margin-bottom: 10px;
+}
+
+.coin-name {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#coin-table {
+    margin: 10px;
+    width: 100%;
+}
+
+#coin-table th, 
+#coin-table td {
+    text-align: center;
+    padding: 8px;
+}

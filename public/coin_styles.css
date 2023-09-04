@@ -1,0 +1,39 @@
+/*
+    Name: Jesse Wang
+    CS 132 Spring 2023
+    Date: 6/09/2023
+    This is the style sheet for the coin single view.
+*/
+
+#coin-info, #coin-summary {
+    display: flex;
+    justify-content: center;
+}
+
+#coin-summary {
+    flex-direction: column;
+    align-items: left;
+    width: 150px;
+}
+
+#coin-summary span {
+    font-size: large;
+    font-weight: bold;
+}
+
+
+#coin-info {
+    font-size: larger;
+}
+
+#coin-graph {
+    text-align: center;
+}
+
+#coin-graph img {
+    width: 100%;
+}
+
+hr {
+    margin: 5px 30px;
+}

@@ -1,0 +1,47 @@
+/*
+    Name: Jesse Wang
+    CS 132 Spring 2023
+    Date: 6/09/2023
+    This is the shared styles sheet for the CoinBased app. It mainly contains
+    styles for the header and footer elements that are shared across all views.
+*/
+body {
+    background-color: #1d1e22;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+nav, .logo, footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+hr {
+    opacity: 0.3;
+}
+
+nav {
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+footer .logo h1 {
+    font-size: 16px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 12px;         
+}

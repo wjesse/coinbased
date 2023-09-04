@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+    Name: Jesse Wang
+    CS 132 Spring 2023
+    Date: 6/09/2023
+    
+    Single view page for CoinBased. Displays information about a single coin.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="shared_styles.css">
+    <link rel="stylesheet" href="coin_styles.css">
+    <script src="helpers.js"></script>
+    <script defer src="coin.js"></script>
+    <title>Coin</title>
+</head>
+<body>
+    <header id="top-bar">
+        <nav>
+            <div class="logo">
+                <img src="images/coinbased_logo.png" alt="CoinBased Logo">
+                <h1><a href="index.html">CoinBased</a></h1>
+            </div>
+            <div class="nav-element">
+                <a href="index.html">Cryptocurrencies</a>
+            </div>
+            <div class="nav-element">
+                <a href="loyal_customer.html">Loyal Customer Status</a>
+            </div>
+            <div class="nav-element">
+                <a href="cart.html">Cart</a>
+            </div>
+        </nav>
+    </header>
+    <hr>
+    <section id="coin-info">
+        <header id="coin-summary">
+            <div id="name">
+                <p><span>Name: </span></p>
+            </div>
+            <div id="price">
+                <p><span>Price: </span></p>
+            </div>
+            <div id="market-cap">
+                <p><span>Market Cap: </span></p>
+            </div>
+            <div id="quantity">
+                <p><span>Quantity: </span></p>
+            </div>
+        </header>
+        <hr>
+        <div id="coin-graph">
+            <h2>Price History</h2>
+            <img src="images/coin_graph.png" alt="Coin Graph">
+        </div>
+        <p></p>
+    </section>
+    <section id="buy">
+        <h2>Purchase Coin</h2>
+        <form id="buy-form">
+            <div class="form-field">
+                <label for="buy-quantity">Quantity:</label>
+                <input type="number" id="buy-quantity" name="buy-quantity" min="1" step="1" required>
+            </div>
+            <div class="form-field">
+                <button type="submit" id="buy-button">Add to Cart</button>
+            </div>
+        </form>
+        <p></p>
+    </section>
+    <footer>
+        <div class="logo">
+            <img src="images/coinbased_logo.png" alt="CoinBased Logo">
+            <h1>CoinBased</h1>
+        </div>
+        <div id="footer-contact">
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </footer>
+</body>
+</html>

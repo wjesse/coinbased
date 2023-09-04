@@ -1,0 +1,15 @@
+{
+  "name": "final_project",
+  "version": "1.0.0",
+  "description": "CS132 final project for Jesse Wang",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
